@@ -1,0 +1,1 @@
+web: java -jar build/libs/santander-dev-wook-2026-0.0.1-SNAPSHOT.jar
