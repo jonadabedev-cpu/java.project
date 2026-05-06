@@ -8,7 +8,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-@Entity(name = "tb.card")
+@Entity(name = "tb_card")
 public class Card {
     
     @Id

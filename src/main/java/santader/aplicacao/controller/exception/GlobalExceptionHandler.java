@@ -16,7 +16,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(IllegalArgumentException.class)
     public ResponseEntity<String> handleBusinessException(IllegalArgumentException businessException) {
-        return new ResponseEntity<>(businessException.getMessage(), HttpStatus.UNPROCESSABLE_CONTENT);
+        return new ResponseEntity<>(businessException.getMessage(), HttpStatus.UNPROCESSABLE_ENTITY);
     }
 
     @ExceptionHandler(NoSuchElementException.class)

@@ -2,7 +2,7 @@ package santader.aplicacao.domain.model;
 
 import jakarta.persistence.Entity;
 
-@Entity(name = "tb.feature")
+@Entity(name = "tb_feature")
 public class Feature extends BaseItem {
 
 }
